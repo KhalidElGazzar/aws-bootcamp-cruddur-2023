@@ -15,6 +15,9 @@
     - ![Napkin Conceptual Diagram - jpg](../../_docs/_assets/crudder-week-0/aws-bootcamp-crudder-week0-conceptual-diagram.jpg)
     - ![Napkin Conceptual Diagram - pdf](../_docs/_assets/crudder-week-0/aws-bootcamp-crudder-week0-conceptual-diagram.pdf)
 
+![img](_docs/assets/crudder-week-0/aws-bootcamp-crudder-week0-conceptual-diagram.jpg)
+
+
  ![Cruddur Graphic](_docs/assets/cruddur-banner.jpg)
  
  - Create the Arch. Diagram
