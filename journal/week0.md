@@ -20,5 +20,19 @@
     - [Crudder Architectural Diagram](https://lucid.app/lucidchart/c60ca83a-459e-4b4a-b841-1af2337bc6f8/edit?view_items=fN-xuBIOeu4n&invitationId=inv_0107733e-0c0e-4dfc-bd55-7b9cf82fef57)
 
 
+### Cloud shell
+~~~
+[cloudshell-user@ip-10-4-x-x ~]$ aws --cli-auto-prompt                                                                                                                                                                   
+> aws sts get-caller-identity
+{
+    "UserId": "AIDA***********4ATO",
+    "Account": "28*******9443",
+    "Arn": "arn:aws:iam::28******9443:user/khalid"
+}
+[cloudshell-user@ip-10-4-x-x ~]$
+~~~
+
+
+
 ## Next Week preparation 
   - Docker Review
