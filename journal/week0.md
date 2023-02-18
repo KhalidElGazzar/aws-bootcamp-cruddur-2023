@@ -39,8 +39,10 @@ Here are 2 screenshots showing the creatin process
 The first one is for creating the credentials from the aws console
 The second is showing the csv file after downloading
 
-    - ![Step 1 - create from the console](crudder-week-0/retreive-access-keys.png)
-    - ![Step 2 - Download the csv file](crudder-week-0/download-access-keys.png)
+
+![Step 1 - create from the console](crudder-week-0/retreive-access-keys.png)
+
+![Step 2 - Download the csv file](crudder-week-0/download-access-keys.png)
 
 
 
@@ -50,8 +52,9 @@ Here are 2 screenshots showing the creatin process
 The first one is for creating 2 budgets (monthly and zero-spend) from the aws console
 The second is showing the Billing alarm created from cloudwatch
 
-    - ![Budget Creation](crudder-week-0/Two budgets created.png)
-    - ![Cloud watch billing alarm](crudder-week-0/Billing alarm (Cloudwatch).png
+![Budget Creation](crudder-week-0/Two budgets created.png)
+    
+![Cloud watch billing alarm](crudder-week-0/Billing alarm -Cloudwatch.png
 
 
 ## Next Week preparation 
