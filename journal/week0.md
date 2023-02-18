@@ -59,5 +59,27 @@ The second is showing the Billing alarm created from cloudwatch
 ![Cloud watch billing alarm](crudder-week-0/Billing-alarm-Cloudwatch.png)
 
 
+
+### AWS CLI
+
+I already had it installed so i only had to configure the access keys
+
+I typed 
+~~~
+aws configure
+~~~
+once and entered all the needed info. Then i retyoed it again to show the below output
+
+~~~
+[cloudshell-user@ip-10-4-x-x aws]$ aws configure
+AWS Access Key ID [****************OHQK]: 
+AWS Secret Access Key [****************4UUG]: 
+Default region name [us-east-1]: 
+Default output format [json]: 
+[cloudshell-user@ip-10-4-x-x aws]$ 
+~~~
+
+
+
 ## Next Week preparation 
   - Docker Review
