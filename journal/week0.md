@@ -33,6 +33,14 @@
 ~~~
 
 
+### Generate AWS Credentials
+
+Here are 2 screenshots showing the creatin process
+
+   - ![Step 1 - create from the console](crudder-week-0/retreive-access-keys.png)
+    - ![Step 2 - Download the csv file](crudder-week-0/download-access-keys.png)
+
+
 
 ## Next Week preparation 
   - Docker Review
