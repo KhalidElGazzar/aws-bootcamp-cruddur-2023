@@ -51,7 +51,7 @@ The first one is for creating 2 budgets (monthly and zero-spend) from the aws co
 The second is showing the Billing alarm created from cloudwatch
 
     - ![Budget Creation](crudder-week-0/Two budgets created.png)
-    - ![Cloud watch billing alarm](crudder-week-0/Billing alarm (Cloudwatch).png)
+    - ![Cloud watch billing alarm](crudder-week-0/Billing alarm (Cloudwatch).png
 
 
 ## Next Week preparation 
