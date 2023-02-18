@@ -54,7 +54,6 @@ The second is showing the Billing alarm created from cloudwatch
 
 
 ![Budget Creation](crudder-week-0/Two-budgets-created.png)
-
     
 ![Cloud watch billing alarm](crudder-week-0/Billing-alarm-Cloudwatch.png)
 
@@ -64,11 +63,20 @@ The second is showing the Billing alarm created from cloudwatch
 
 I already had it installed so i only had to configure the access keys
 
-I typed 
+
+Here are 2 screenshots to show the process
+
+
+![install cli from cloudshell](crudder-week-0/install-cli-from-clodshell-01.png)
+    
+![aws cli already installed message](crudder-week-0/aws-cli-already-installed.png)
+
+
+After that, I typed 
 ~~~
 aws configure
 ~~~
-once and entered all the needed info. Then i retyoed it again to show the below output
+once and entered all the needed info. Then i re-tyed it again to show the below output
 
 ~~~
 [cloudshell-user@ip-10-4-x-x aws]$ aws configure
