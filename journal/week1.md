@@ -8,15 +8,15 @@
 - Further details are explained within the student log (Student journal) for week-1
 
 ## 2. Done - Extra Homework
-- Cloud Environemnts
+- Expolring other Cloud Environemnts
     - Researching OCI (Oracle Cloud Infrstrucutre) Application express & Open source CodeServer.
 
 ## 3. Problems
 - Nothing Major. Some minor problems were faced but I managed my way to solve them.
 
-## 4. Coming next
-- Check if i can created another new AWS account instead of the blocked one. 
-- Observaility.
+## 4. What's next?
+- Check if I can created another new AWS account instead of the blocked one in order to extend the free-tier. 
+- Observaility (week 02).
 
 
 # Details
@@ -42,8 +42,11 @@ I watched the notification video and managed to add integrate the notification f
 
 Screen shots for notification feature:
 
-1. Crudder Notifications from frontend ![Notifications - frontend](week-01/crudder-notifications-from-frontend.png)
-2. Crudder Notifications (backend) ![Notifications - Backend](week-01/crudder-notifications-backend.png)
+1. Crudder Notifications from frontend
+![Notifications - frontend](week-01/crudder-notifications-from-frontend.png)
+
+2. Crudder Notifications (backend)
+![Notifications - Backend](week-01/crudder-notifications-backend.png)
 
 
 
