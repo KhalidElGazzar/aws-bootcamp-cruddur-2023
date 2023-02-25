@@ -115,7 +115,9 @@ Screenshots for testing DynamoDB:
 
 I looked in depth ar Cloud Environemnts. This included doing the following:
     - Researching OCI (Oracle Cloud Infrstrucutre) Application express which is a cloud environemnt similar to AWS Cloud9. Since I have OCI account, I can use OCI App Express if I ran out of credits on Gitpod, Github spaces or Clooud9.
+    
     - A nice article that decribes the similaries and differences can be found at: [OCI Application express Vs AWS Cloud9](https://comparisons.financesonline.com/oracle-application-express-vs-aws-cloud9)
+    
     - I’m also looking into Open source CodeServer which I have it setup at one of my homeLabs. It provides online code editor similiar to vscode but i’m exploring more to check its full capacity.
 
 
