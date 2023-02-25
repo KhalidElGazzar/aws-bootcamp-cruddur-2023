@@ -2,13 +2,13 @@
 
 # Summary (skip to Details section below if already read on student portal)
 
-## 1. Done (Main Homework)
+## 1. Done (Homework)
 - Finished everything within the checklist. 
 - Submitted the 2 quizes on time. 
 - Further details are explained within the student log (Student journal) for week-1
 
-## 2. Done - Extra Homework
-- Expolring other Cloud Environemnts
+## 2. Done - Homework Challenges
+- Expoloring other Cloud Environemnts
     - Researching OCI (Oracle Cloud Infrstrucutre) Application express & Open source CodeServer.
 
 ## 3. Problems
@@ -46,6 +46,7 @@ Screen shots for notification feature:
 ![Notifications - frontend](week-01/crudder-notifications-from-frontend.png)
 
 2. Crudder Notifications (backend)
+
 ![Notifications - Backend](week-01/crudder-notifications-backend.png)
 
 
