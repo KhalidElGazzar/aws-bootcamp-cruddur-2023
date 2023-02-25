@@ -58,14 +58,20 @@ I followed the video and all went well.
 
 Screen shots for adding the databases:
 
-1. Installing Postgress on gitpod ![Installing Postgress on gitpod](week-01/installing-postgress-on-gitpod.png)
+1. Installing Postgress on gitpod 
+![Installing Postgress on gitpod](week-01/installing-postgress-on-gitpod.png)
 
-2. Installing aws-cli on gitpod ![Installing aws-cli on gitpod](week-01/installing-aws-cli-on-gitpod.png)
+2. Installing aws-cli on gitpod 
+![Installing aws-cli on gitpod](week-01/installing-aws-cli-on-gitpod.png)
 
-3. Ensure having both aws-cli and postgress in gitpod startup scripts ![aws-cli and postgress on gitpod startup](week-01/having-both-aws-cli-and-postgress-in-gitpod-startup-scripts.png)
 
 
-4. Adding postgres to vscode extensions ![adding postgres to vscode extensions](week-01/adding-postgres-to-vscode-extensions.png)
+3. Ensure having both aws-cli and postgress in gitpod startup scripts 
+![aws-cli and postgress on gitpod startup](week-01/having-both-aws-cli-and-postgress-in-gitpod-startup-scripts.png)
+
+
+4. Adding postgres to vscode extensions 
+![adding postgres to vscode extensions](week-01/adding-postgres-to-vscode-extensions.png)
 
 
 After that I made two tests (one from the gitpos vscode terminal and the second from database explore) to ensure that postgress is working.
@@ -77,7 +83,6 @@ Screenshots are shown below:
 2. Getting postgres to work as container from gitpod db explorer![postgre working as container from gitpod db explorer](week-01/testing-postgres-db-connection-from-db-explorer.png)
 
 3. Sucessful connection from gitpod db explorer![Sucessful connection from gitpod db explorer](week-01/successful-postgres-connection-from-db-explorer.png)
-
 
 
 ### Playing around with Dynamo DB
@@ -94,9 +99,12 @@ Screenshots for testing DynamoDB:
 
 1. Table creation ![DynamoDB Table creation](week-01/dynamodb-testing-table-creation.png)
 
+
 2. Item Creation ![DynamoDB Item Creation](week-01/dynamodb-testing-create-item.png)
 
+
 3. Listing Table ![DynamoDB Listing Table](week-01/dynamodb-testing-list-table.png)
+
 
 4. Listing Music Table ![Listing Table](week-01/dynamodb-testing-list-music-table.png)
 
