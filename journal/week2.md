@@ -1,7 +1,5 @@
 # Week 2 — Distributed Tracing
 
-# Week 1 — App Containerization
-
 # Summary (skip to Details section below if already read on student portal)
 
 ## 1. Done (Homework)
