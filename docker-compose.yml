@@ -54,9 +54,9 @@ services:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
       AWS_REGION: "us-east-1"
-      command:
+    command:
       - "xray -o -b xray-daemon:2000"
-      ports:
+    ports:
       - 2000:2000/udp
 
 # the name flag is a hack to change the default prepend folder
