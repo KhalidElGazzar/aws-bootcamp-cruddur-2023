@@ -7,6 +7,7 @@ services:
       OTEL_SERVICE_NAME: "backend-flask"
       OTEL_EXPORTER_OTLP_ENDPOINT: "https://api.honeycomb.io"
       OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
+      
       ## Added by KG - setting up the env vars for Observability (week 2)
       ## for AWS Cloud watch logs 
       AWS_DEFAULT_REGION: "${AWS_DEFAULT_REGION}"
