@@ -15,10 +15,12 @@ from services.messages import *
 from services.create_message import *
 from services.show_activity import *
 
+
+from time import strftime
+
 # needed imports for Cloudwatch logs
 import watchtower
 import logging
-from time import strftime
 
 ############# HoneyComb ################ 
 from opentelemetry import trace
