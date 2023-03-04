@@ -24,8 +24,12 @@ from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 
 ############# AWS X-RAY ################ 
-from aws_xray_sdk.core import xray_recorder
+
+
+
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+from aws_xray_sdk.core import xray_recorder
+
 
 
 ############# HoneyComb ################ 
@@ -34,6 +38,15 @@ provider = TracerProvider()
 processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
 
+# from aws_xray_sdk.core import xray_recorder
+xray_recorder.begin_segment('name')
+
+xray_recorder.begin_subsegment('KG-SUB_SEGMENT')
+# some code block you want to record
+
+
+
+app = Flask(__name__)
 
 ############## X-Ray start the recorder ###################
 xray_url = os.getenv("AWS_XRAY_URL") # X ray end point
@@ -47,7 +60,6 @@ XRayMiddleware(app, xray_recorder)
 trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
 
-app = Flask(__name__)
 
 ############# HoneyComb ################ 
 # Initialize automatic instrumentation with Flask
@@ -65,6 +77,12 @@ cors = CORS(
   allow_headers="content-type,if-modified-since",
   methods="OPTIONS,GET,HEAD,POST"
 )
+
+
+## KG End segement & Sub segement
+xray_recorder.end_subsegment()
+
+xray_recorder.end_segment()
 
 @app.route("/api/message_groups", methods=['GET'])
 def data_message_groups():
